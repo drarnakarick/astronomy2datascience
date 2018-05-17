@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+    <title>Astrophysics to Data Science</title>
+</meta>
+ <head>
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="sequence-a2ds.css"/>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script> -->
+    <!-- <script src="lib/d3.v4.3.0.min.js"></script>-->
+</head>
+
+<body>
+
+<div id="main">
+    <div>
+      <h1>Astrophysics to Data Science</h1>
+      <h2>Visualising the career paths of astronomers who moved from academia to data science</h2>
+    </div>
+
+     <div class="content">
+
+  <p>The <a href="http://www.s2ds.org/">Science to Data Science (S2DS)</a> and <a href="https://www.insightdatascience.com/">Insight Data Science</a> are intensive post-doctoral training fellowships
+  that bridge the gap between academia and data science in industry. The aim of this project was to explore how and when do astronomers move into data science. How many do postdocs first?
+  How many go through a data science fellowship programs? How many move into data science without a data science fellowship?</p>
+
+ <p>The data comes from the LinkedIn profiles of 116 astronomers who moved from astronomy to data science at some point in their career.</p>
+    </div>
+
+<!-- useful website for determinging color palettes: http://projects.susielu.com/viz-palette -->
+
+
+
+      <div id="sequence"></div>
+      <div id="chart">
+        <div id="explanation" style="visibility: hidden;">
+
+        <span id="numpeople"></span><br/>
+          astronomers took this path to data science <br/>(<span id="percentage"></span>)
+        </div>
+      </div>
+
+  <!--
+    <div id="sidebar">
+      <input type="checkbox" id="togglelegend"> Legend<br/>
+      <div id="legend" style="visibility: hidden;"></div>
+    </div>
+  -->
+
+    <script type="text/javascript" src="sequences.js"></script>
+    <script type="text/javascript">
+      // Hack to make this example display correctly in an iframe on bl.ocks.org
+      d3.select(self.frameElement).style("height", "700px");
+  </script>
+
+
+      <div class="content">
+      <p>15% of astronomers moved into data science without going through the S2DS or Insight Fellowship programs. Of those, half had at least one postdoc position and half moved into data science roles straight after their PhD. </p>
+
+        </div>
+
+<!--- D3js visualisation frame -->
+<!--<svg width="1000" height="692"></svg>-->
+
+<!--- Optional for D3js
+<form>
+  <label><input type="radio" name="mode" value="sumBySize" checked> Each artwork is scaled by its value</label>&nbsp;
+  <label><input type="radio" name="mode" value="sumByCount">Artworks represented equally</label>
+</form> -->
+
+
+  </body>
+</html>
