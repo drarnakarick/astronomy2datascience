@@ -47,7 +47,7 @@ a {
 			  cursor: default;
         /* background-color: #000; */
         background-color: #fff;
-         margin-top: 10px;
+        margin-top: 10px;
 			}
 
 h1 {
@@ -125,7 +125,7 @@ h2 {
 
 #sidebar {
   float: right;
-  width: 20px;
+  width: 0px;
 }
 #legend {
   padding: 10px 0 0 3px;
