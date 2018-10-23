@@ -2,9 +2,9 @@
 
 #main {
       float: center;
-      width: 1000px;
+      width: 800px;
       vertical-align: top;
-      height: 1500px;
+      height: 800px;
       margin-top: 100px;
       margin-bottom: 100px;
       margin-right: auto;
@@ -83,7 +83,8 @@ h2 {
 }
 
 #chart path {
-  stroke: #000;
+  /* stroke: #000; */
+  stroke: #fff;
 }
 
 #sequence {
