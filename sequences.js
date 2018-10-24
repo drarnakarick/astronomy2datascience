@@ -11,13 +11,13 @@ var b = {
 // Mapping of step names to colors.
 var colors = {
   "MSc": "#85007c",
-  "PhD": "#117c8f",
-  "Postdoc": "#7ae7c7",
-  "S2DS": "#b2ea86",
-  "Insight": "#fff689",
-  "Other": "#f9961c",
-  "DataScience": "#b00000",
-  "ASIFellow": "#b00022"
+  "PhD": "#1a4348",
+  "Postdoc": "#327074",
+  "S2DS": "#bd7132",
+  "Insight": "#daae50",
+  "Other": "#f2e9d0",
+  "DataScience": "#982830",
+  "ASI_Fellow": "#c7d24f"
 };
 
 //  "Faculty": "b00000",
