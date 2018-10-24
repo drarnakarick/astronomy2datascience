@@ -16,7 +16,11 @@ var colors = {
   "S2DS": "#b2ea86",
   "Insight": "#fff689",
   "Other": "#f9961c",
-  "DataScience": "b00000"
+  "DataScience": "b00000",
+  "ASIFellow": "b00000",
+  "Faculty": "b00000",
+  "Metis": "b00000",
+  "DataIncubator": "b00000"
 };
 
 // Total size of all segments; we set this later, after loading the data.
@@ -41,7 +45,7 @@ var arc = d3.arc()
 // Use d3.text and d3.csvParseRows so that we do not need to have a header
 // row, and can receive the csv as an array of arrays.
 
-d3.text("sunburst-sequence-a.csv", function(text) {
+d3.text("sunburst-sequence-a2ds.csv", function(text) {
   var csv = d3.csvParseRows(text);
   var json = buildHierarchy(csv);
   createVisualization(json);
