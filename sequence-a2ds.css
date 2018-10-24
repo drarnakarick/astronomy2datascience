@@ -4,9 +4,9 @@
       float: center;
       width: 1000px;
       vertical-align: top;
-      height: 1000px;
-      margin-top: auto;
-      margin-bottom: auto;
+      height: 1500px;
+      margin-top: 100px;
+      margin-bottom: 100px;
       margin-right: auto;
       margin-left: auto;
   }
@@ -16,8 +16,8 @@
       width: 100%;
       vertical-align: top;
       background-color: #000;
-      margin-top: 0px;
-      margin-botttom: 0px;
+      margin-top: 50px;
+      margin-botttom: 100px;
     }
 
 body {
@@ -69,7 +69,7 @@ h2 {
     		cursor: default;
      }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
 
 				#chartContainer{
 					font-size: 10px;
@@ -89,10 +89,10 @@ h2 {
 
 #sequence {
   float: center;
-  width: 90%;
-  height: 40px;
-  font-size: 10px;
-  margin-top: 0px;
+  width: 100%;
+  height: 60px;
+  font-size: 12px;
+  margin-top: 100px;
 }
 
 #sequence text, #legend text {
@@ -103,7 +103,7 @@ h2 {
 #explanation {
   position: absolute;
   top: 350px;
-  left: 450px;
+  left: 430px;
   width: 140px;
   text-align: center;
   color: #000;
@@ -125,7 +125,7 @@ h2 {
 
 #sidebar {
   float: right;
-  width: 0px;
+  width: 20px;
 }
 #legend {
   padding: 10px 0 0 3px;
