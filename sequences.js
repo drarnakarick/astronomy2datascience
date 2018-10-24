@@ -16,8 +16,8 @@ var colors = {
   "S2DS": "#b2ea86",
   "Insight": "#fff689",
   "Other": "#f9961c",
-  "DataScience": "b00000",
-  "ASIFellow": "b00022"
+  "DataScience": "#b00000",
+  "ASIFellow": "#b00022"
 };
 
 //  "Faculty": "b00000",
