@@ -17,13 +17,12 @@ var colors = {
   "Insight": "#fff689",
   "Other": "#f9961c",
   "DataScience": "b00000",
-  "ASIFellow": "b00022",
-  "Faculty": "b00000",
-  "Metis": "b00000",
-  "DataIncubator": "b00000"
+  "ASIFellow": "b00022"
 };
 
-
+//  "Faculty": "b00000",
+//  "Metis": "b00000",
+//  "DataIncubator": "b00000"
 
 // Total size of all segments; we set this later, after loading the data.
 var totalSize = 0;
