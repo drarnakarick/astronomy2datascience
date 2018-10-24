@@ -97,7 +97,7 @@ h2 {
 
 #sequence text, #legend text {
   font-weight: 300;
-  fill: #000;
+  fill: #fff;
 }
 
 #explanation {
@@ -109,7 +109,6 @@ h2 {
   color: #000;
   z-index: -1;
 }
-
 
 
 #percentage {
