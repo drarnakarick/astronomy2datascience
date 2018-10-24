@@ -2,11 +2,11 @@
 
 #main {
       float: center;
-      width: 600px;
+      width: 1000px;
       vertical-align: top;
-      height: 600px;
-      margin-top: 0px;
-      margin-bottom: 0px;
+      height: 1000px;
+      margin-top: auto;
+      margin-bottom: auto;
       margin-right: auto;
       margin-left: auto;
   }
@@ -101,7 +101,7 @@ h2 {
 }
 
 #explanation {
-  position: relative;
+  position: absolute;
   top: 350px;
   left: 150px;
   width: 140px;
