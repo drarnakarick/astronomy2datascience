@@ -110,6 +110,17 @@ h2 {
   z-index: -1;
 }
 
+
+#article_title {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  width: 140px;
+  text-align: center;
+  color: #000;
+  z-index: -1;
+}
+
 #percentage {
   font-size: 1.0em;
   line-height: 1.6em;
