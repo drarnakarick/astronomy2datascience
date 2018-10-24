@@ -101,7 +101,7 @@ h2 {
 }
 
 #explanation {
-  position: absolute;
+  position: relative;
   top: 350px;
   left: 150px;
   width: 140px;
