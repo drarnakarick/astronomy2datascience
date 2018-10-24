@@ -83,8 +83,8 @@ h2 {
 }
 
 #chart path {
-  /* stroke: #000; */
-  stroke: #fff;
+  /* stroke: #000; /*0 black */
+  stroke: #fff;  /* white*/
 }
 
 #sequence {
