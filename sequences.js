@@ -11,18 +11,18 @@ var b = {
 // Mapping of step names to colors.
 var colors = {
   "MSc": "#85007c",
-  "PhD": "#1a4348",
-  "Postdoc": "#327074",
-  "S2DS": "#bd7132",
-  "Insight": "#daae50",
-  "Other": "#f2e9d0",
+  "PhD": "#00a4c2",
+  "Postdoc": "#2a7079",
+  "S2DS": "#ffb14e",
+  "Insight": "#f0df2b",
+  "Other": "#bfb79f",
   "DataScience": "#982830",
-  "ASI_Fellow": "#c7d24f"
+  "ASI_Fellow": "#c3e700",
+  "Faculty": "#000000",
+  "Metis": "#bd7132",
+  "DataIncubator": "#c84b4b"
 };
 
-//  "Faculty": "b00000",
-//  "Metis": "b00000",
-//  "DataIncubator": "b00000"
 
 // Total size of all segments; we set this later, after loading the data.
 var totalSize = 0;
